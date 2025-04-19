@@ -70,7 +70,7 @@ class cbfs(param.Parameterized):
     def __init__(self,  **params):
         super(cbfs, self).__init__( **params)
         self.panels = []
-        self.loaded_file = "docs/cs229_lectures/MachineLearning-Lecture01.pdf"
+        self.loaded_file = "javanotes5.pdf"
         self.qa = load_db(self.loaded_file,"stuff", 4)
     
     def call_load_db(self, count):
@@ -176,10 +176,10 @@ dashboard = pn.Column(
 dashboard
 ```
 ### OUTPUT:
-![image](https://github.com/user-attachments/assets/000e6e05-9924-4ae8-acd3-d4706b303f3d)
-![image](https://github.com/user-attachments/assets/5b2b2dd1-371f-459b-95a7-452d7e632c2a)
-![image](https://github.com/user-attachments/assets/a030d57c-3e18-484e-acd2-8127a6559c57)
-![image](https://github.com/user-attachments/assets/87ae1e0f-ea8b-4303-81fb-340d1389119f)
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+
 
 ### RESULT:
-Thus, a question-answering chatbot capable of processing and extracting information from a provided PDF document using LangChain was implemented and evaluated for its effectiveness by testing its responses to diverse queries derived from the document's content successfully.
+Thus, a question-answering chatbot capable of processing and extracting information from a provided PDF document using LangChain is executed successfully.
