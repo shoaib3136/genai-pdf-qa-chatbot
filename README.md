@@ -176,9 +176,11 @@ dashboard = pn.Column(
 dashboard
 ```
 ### OUTPUT:
-![alt text](image.png)
+![Screenshot 2025-04-19 093049](https://github.com/user-attachments/assets/741b0f8a-fcc9-4804-8196-6866981077e5)
 
-![alt text](image-1.png)
+![Screenshot 2025-04-19 093132](https://github.com/user-attachments/assets/abe4d28e-bd56-43e0-945d-da1cbd2a551b)
+
+
 
 ![alt text](image-2.png)
 
